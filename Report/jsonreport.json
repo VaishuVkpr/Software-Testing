@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "To create a new account",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-amazon-application;to-create-a-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1586700500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "Loginsample.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2746518500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To launch url of amazon application",
+            "match": {
+              "location": "Loginsample.to_launch_url_of_amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1672030700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the signin button",
+            "match": {
+              "location": "Loginsample.to_click_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31153278800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the create new account",
+            "match": {
+              "location": "Loginsample.to_click_the_create_new_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19376900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To pass the firstname in the name textbox",
+            "match": {
+              "location": "Loginsample.to_pass_the_firstname_in_the_name_textbox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "vaishnavi",
+                  "vaishali",
+                  "reshu",
+                  "madhu"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16834100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To pass the mobileno or email in the email textbox",
+            "match": {
+              "location": "Loginsample.to_pass_the_mobileno_or_email_in_the_email_textbox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sjvaishnavi05@gmail.com",
+                  "9361694473",
+                  "9715561456"
+                ]
+              },
+              {
+                "cells": [
+                  "8765431204",
+                  "vaishu@gmail.com",
+                  "9715562456"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99561500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To create new password using new password textbox",
+            "match": {
+              "location": "Loginsample.to_create_new_password_using_new_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 332068000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "To close the Chrome browser",
+            "match": {
+              "location": "Loginsample.to_close_the_Chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Faeature1"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the account creation of Amazon application",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-amazon-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Sample.feature",
+    "tags": [
+      {
+        "name": "@Faeature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
